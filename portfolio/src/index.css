@@ -153,11 +153,10 @@ body {
       135deg,
       var(--gold-1),
       var(--gold-2),
-      var(--gold-3),
-
+      var(--gold-3)
     );
 
-  color: #0000;
+  color: #050505;
 
   font-weight: 700;
   transition: all .35s ease;
@@ -182,7 +181,7 @@ body {
 
 .outline-button {
   background:
-    rgba(255,255,255,0,.03);
+    rgba(255,255,255,.03);
   border:
     1px solid rgba(255,215,0,.4);
 
@@ -518,4 +517,123 @@ body {
 }
 Canvas{
   filter: drop-shadow(0 0 80px rgba(255,215,0,0.25));
+}
+/* ---------------------- */
+/* NAVBAR SCROLL (mobile) */
+/* ---------------------- */
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* ---------------------- */
+/* TIMELINE (Experience) */
+/* ---------------------- */
+
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-left: 32px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: linear-gradient(
+    to bottom,
+    var(--gold-2),
+    rgba(255, 215, 0, 0.05)
+  );
+}
+
+.timeline-item {
+  position: relative;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -32px;
+  top: 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--gold-2);
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.6);
+}
+
+/* ---------------------- */
+/* PROJECT FILTER BUTTONS */
+/* ---------------------- */
+
+.filter-btn {
+  padding: 8px 20px;
+  border-radius: 999px;
+  border: 1px solid var(--glass-border);
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  border-color: rgba(255, 215, 0, 0.4);
+  color: var(--gold-2);
+}
+
+.filter-btn-active {
+  background: linear-gradient(135deg, var(--gold-2), var(--gold-3));
+  color: #050505;
+  font-weight: 600;
+  border-color: transparent;
+}
+
+/* ---------------------- */
+/* CERTIFICATION MEDALLION */
+/* ---------------------- */
+
+.cert-medallion {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 215, 0, 0.06);
+  border: 1px solid rgba(255, 215, 0, 0.3);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.12);
+}
+
+/* ---------------------- */
+/* CONTACT FORM */
+/* ---------------------- */
+
+.form-input {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  color: var(--text-primary);
+  font-family: "Inter", sans-serif;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.form-input::placeholder {
+  color: var(--text-secondary);
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: var(--gold-2);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.12);
 }
