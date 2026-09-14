@@ -4,7 +4,7 @@ const experiences = [
   {
     title: 'Full Stack Developer Intern',
     company: 'Upskill',
-    period: 'May 2026 – Present',
+    period: 'May 2026 – August 2026',
     type: 'Full Stack',
     achievements: [
       'Developed a full-stack Food Delivery Application using the MERN stack with React.js frontend and Node.js, Express.js, and MongoDB backend',
@@ -27,6 +27,19 @@ const experiences = [
     ],
     tags: ['Python', 'LangGraph', 'LangChain', 'ChromaDB', 'FastAPI', 'Vector Databases'],
   },
+  {
+    title: 'Software Engineer Intern',
+    company: 'Shnoor International LLC',
+    period: 'September 2026 – Present',
+    type: 'MERN / Full Stack',
+    achievements: [
+      'Participated in assigned projects, contributing to the development of web applications using the MERN stack',
+      'Collaborated with team members to design and implement new features, ensuring code quality and adherence to best practices',
+      'Assisted in debugging and resolving issues in existing applications, improving performance and user experience',
+      'Gained practical experience in full-stack development, including frontend and backend technologies, database management, and deployment processes',
+    ],
+    tags: ['MongoDB', 'Express.js', 'React.js', 'Node.js', 'REST APIs', 'Git/GitHub'],
+  }
 ];
 
 export default function Experience() {
@@ -71,7 +84,7 @@ export default function Experience() {
             >
               {/* Dot */}
               <div
-                className="absolute -left-[46px] top-5 w-3 h-3 rounded-full"
+                className="absolute -left-11.5 top-5 w-3 h-3 rounded-full"
                 style={{ background: '#FFD700', boxShadow: '0 0 12px rgba(255,215,0,0.6)' }}
               />
 
