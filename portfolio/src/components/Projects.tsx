@@ -17,7 +17,7 @@ const projects = [
     description:
       'Automated resume parsing and candidate ranking using LLMs and vector similarity. Reduces time-to-hire significantly with bias-reduced scoring and structured evaluation.',
     tags: ['Python', 'LangChain', 'FastAPI', 'ChromaDB'],
-    github: '#',
+    github: 'https://github.com/saiavinashpasumarthy/AI_RESUME_SCREENING_SYSTEM-GEN_AI',
     demo: null,
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     description:
       'Full-stack web portal for students and faculty with secure authentication, role-based access control, announcements, timetables, and feedback management features.',
     tags: ['MongoDB', 'Express', 'React', 'Node.js', 'Tailwind'],
-    github: '#',
+    github: 'https://github.com/saiavinashpasumarthy/sbit111mern-doorstepA05B1',
     demo: null,
   },
   {
@@ -35,7 +35,7 @@ const projects = [
     description:
       'End-to-end food ordering app with real-time order tracking, restaurant listings, cart management, and order history built on the MERN stack.',
     tags: ['React', 'Node.js', 'Express', 'MongoDB'],
-    github: '#',
+    github: 'https://github.com/saiavinashpasumarthy/upskillcampus',
     demo: null,
   },
   {
@@ -47,6 +47,15 @@ const projects = [
     github: '#',
     demo: null,
   },
+  {
+    name: 'AI Socratic Tutor',
+    category: 'AI / LLM',
+    description:
+      'An AI-powered Socratic tutor that engages students in critical thinking through guided questioning, leveraging LLMs for personalized learning experiences.',
+    tags: ['Python', 'LangChain', 'OpenAI API', 'FastAPI'],
+    github: 'https://github.com/saiavinashpasumarthy/AI-socratic-Tutor',
+    demo: null,
+  }
 ];
 
 const stagger = {
