@@ -11,6 +11,7 @@ import Education from './components/Education';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Achievements from './components/Achievements';
 
 // Spotlight cursor position
 function SpotlightCursor() {
@@ -128,6 +129,7 @@ export default function App() {
           <main>
             <Hero />
             <About />
+            <Achievements/>
             <Skills />
             <Projects />
             <Experience />

@@ -4,6 +4,7 @@ import { FiMenu, FiX } from 'react-icons/fi';
 
 const NAV_LINKS = [
   { label: 'About', href: '#about' },
+  { label: 'Achievements', href: '#achievements' },
   { label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
   { label: 'Experience', href: '#experience' },
