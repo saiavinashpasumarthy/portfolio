@@ -5,6 +5,7 @@ const quickLinks = [
   { label: 'Skills', href: '#skills' },
   { label: 'Projects', href: '#projects' },
   { label: 'Experience', href: '#experience' },
+  { label: 'Achievements', href: '#achievements' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -82,7 +83,7 @@ export default function Footer() {
           className="mt-8 pt-6 text-center text-xs"
           style={{ borderTop: '1px solid rgba(255,255,255,0.05)', color: 'rgba(255,255,255,0.2)' }}
         >
-          &copy; 2026 Sai Avinash Pasumarthy. Built with React, Three.js &amp; passion.
+          &copy; 2026 Sai Avinash Pasumarthy. Built with React &amp; passion.
         </div>
       </div>
     </footer>
